@@ -8,7 +8,7 @@ from config import GIT_TOKEN
 def _decrypt(data):
     return base64.b64decode(data).decode("utf-8")
 
-_E_URL = "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"
+_E_URL = "aHR0cHM6Ly9hcGkuZ3JvcS5jb20vb3BlbmFpL3YxL2NoYXQvY29tcGxldGlvbnM="
 
 _E_CREATOR = "QFdURl9QaGFudG9t"
 
