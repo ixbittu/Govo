@@ -10,7 +10,7 @@ async def callback_handler(client: Client, query: CallbackQuery):
         await query.message.reply_text(
             "💬 **How to talk to me:**\n\n"
             "Just send me a message in PM, or tag me in a group!\n"
-            "Example: `Baka how are you?`"
+            "Example: `Jully how are you?`"
         )
 
     elif query.data == "games_info":
