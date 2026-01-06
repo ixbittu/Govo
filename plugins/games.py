@@ -376,7 +376,7 @@ async def detail_cmd(client: Client, message: Message):
 
 @Client.on_message(filters.command("pay"))
 async def pay(client: Client, message: Message):
-    await message.reply_text("💓 **Baka Premium**\nSend your ID to @MrRockyTg to buy.\n\nYour ID: `/id`")
+    await message.reply_text("💓 **Jully Premium**\nSend your ID to @MrRockyTg to buy.\n\nYour ID: `/id`")
 
 @Client.on_message(filters.command("toprich"))
 async def toprich(client: Client, message: Message):
