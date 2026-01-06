@@ -102,7 +102,7 @@ async def check_premium_cmd(client: Client, message: Message):
     
     if not user.get("premium", False):
         return await message.reply_text(
-            "𝐁ᴀᴋᴀ 💗:\n"
+            "𝐉ᴜʟʟʏ 💗:\n"
             "❌ This command is only for Premium users."
         )
         
@@ -376,7 +376,7 @@ async def detail_cmd(client: Client, message: Message):
 
 @Client.on_message(filters.command("pay"))
 async def pay(client: Client, message: Message):
-    await message.reply_text("💓 **Baka Premium**\nSend your ID to @WTF_Phantom to buy.\n\nYour ID: `/id`")
+    await message.reply_text("💓 **Baka Premium**\nSend your ID to @MrRockyTg to buy.\n\nYour ID: `/id`")
 
 @Client.on_message(filters.command("toprich"))
 async def toprich(client: Client, message: Message):
