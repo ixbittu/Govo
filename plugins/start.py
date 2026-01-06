@@ -27,7 +27,7 @@ async def start_cmd(client: Client, message: Message):
     # Buttons
     buttons = InlineKeyboardMarkup([
         [InlineKeyboardButton("✨ Talk to Baka 💬", callback_data="talk_info")],
-        [InlineKeyboardButton("✨ Friends 🧸", url="https://t.me/ShreyaBotSupport"),
+        [InlineKeyboardButton("✨ Friends 🧸", url="https://t.me/GovoSupportBot"),
          InlineKeyboardButton("✨ Games 🎮", callback_data="games_info")],
         [InlineKeyboardButton("➕ Add me to your group 👥", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")]
     ])
